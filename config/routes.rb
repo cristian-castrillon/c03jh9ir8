@@ -54,6 +54,6 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
-  get "actors", to: "actors#show"
+  # get "actors", to: "actors#show"
   resources :actors
 end
